@@ -378,6 +378,10 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     fstab.qcom
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_lavender
