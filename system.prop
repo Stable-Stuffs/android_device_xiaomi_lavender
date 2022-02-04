@@ -30,3 +30,7 @@ persist.dirac.acs.storeSettings=1
 
 #Display 
 renderthread.skia.reduceopstasksplitting=true
+
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
