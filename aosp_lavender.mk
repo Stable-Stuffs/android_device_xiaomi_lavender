@@ -32,10 +32,3 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="lavender" \
-    PRODUCT_NAME="lavender" \
-    PRIVATE_BUILD_DESC="raven-user-12-SQ3A.220705.003-8671607-release-keys"
-
-BUILD_FINGERPRINT :="google/raven/raven:12/SQ3A.220705.003/8671607:user/release-keys"
