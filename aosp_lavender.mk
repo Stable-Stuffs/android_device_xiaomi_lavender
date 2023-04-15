@@ -13,11 +13,11 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_INCLUDE_STOCK_ACORE := true
+TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
 # Inherit Some Applictions
 $(call inherit-product, packages/apps/android/Camera/config.mk)
